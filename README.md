@@ -15,10 +15,12 @@ Add a LICENSE file
   e.g.: streamlit
   e.g.: pytest
 5. create a pytest.ini file
+```text
   # pytest.ini
   [pytest]
   pythonpath = src
   testpaths = tests
+```  
 6. Crete a virtual environment and install the requirements
 7. Write a test that asserts you are fetching data
 8. Implement the code that fetches the data
